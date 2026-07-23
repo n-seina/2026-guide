@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>Snow-Navi | 初心者ガイド</title>
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <a href="/index.html" class="header__logo">Snow-Navi</a>
+
+        <button class="hamburger-menu" id="js-hamburger" aria-label="メニューを開く" aria-expanded="false">
+            <span class="hamburger-menu__line"></span>
+            <span class="hamburger-menu__line"></span>
+            <span class="hamburger-menu__line"></span>
+        </button>
+
+        <nav class="sp-nav" id="js-sp-nav" aria-hidden="true">
+            <ul class="sp-nav__list">
+                <li class="sp-nav__item"><a href="/index.html" class="sp-nav__link is-current">ホーム</a></li>
+                <li class="sp-nav__item"><a href="./gear.html" class="sp-nav__link">道具・服装編</a></li>
+                <li class="sp-nav__item"><a href="./ski.html" class="sp-nav__link">スキー場編</a></li>
+                <li class="sp-nav__item"><a href="./qa.html" class="sp-nav__link">Q&A編</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="top__catchphrase">
+        <!-- ：背景画像 -->
+        <img class="top__bg-image" src="/images/top_bg.jpg" alt="背景画像" />
+        <h1 class="top__title">真っ白な世界へ<br />最高の冬、はじめよう</h1>
+    </div>
+
+    <main class="main-content">
+
+        <section class="top">
+
+
+            <div class="top__balloons">
+                <!-- 吹き出し1 -->
+                <div class="speech-balloon speech-balloon--left">
+                    <p class="speech-balloon__text">友達から誘われたけど、<br />何から準備すればいいか分からない</p>
+                </div>
+                <!-- 吹き出し2 -->
+                <div class="speech-balloon speech-balloon--right">
+                    <p class="speech-balloon__text">運動が苦手でも滑れる？<br />周りに迷惑をかけないか不安</p>
+                </div>
+                <!-- 吹き出し3 -->
+                <div class="speech-balloon speech-balloon--left">
+                    <p class="speech-balloon__text">スノーボードって<br />結構お金がかかりそう...</p>
+                </div>
+            </div>
+
+            <div class="top__lead">
+                <p class="top__lead-main">そんな不安を解決する<br />知識ゼロから雪山デビューまでの<br class="br-550">初心者ガイド</p>
+                <p class="top__lead-sub">19歳〜22歳ならリフト券が無料になる裏ワザも紹介！</p>
+            </div>
+        </section>
+
+        <!-- セクション01: 道具・服装（トップページ用） -->
+        <section class="section section--gear">
+            <div class="section__header">
+                <div class="section-number">
+                    <span class="section-number__bg"></span>
+                    <span class="section-number__text">01</span>
+                </div>
+                <h2 class="section__title">道具・服装</h2>
+            </div>
+
+            <p class="section__description">一部レンタルも可能！<br />スキー場での服装と必要な道具をチェック</p>
+
+            <!-- トップページ専用のクラス名に変更 -->
+            <div class="top-gear-categories">
+                <!-- 道具 -->
+                <div class="top-gear-card">
+                    <h3 class="top-gear-card__title">道具</h3>
+                    <ul class="top-gear-card__list">
+                        <li class="top-gear-card__list-item">
+                            <label class="top-gear-card__item">
+                                <input type="checkbox">
+                                <span>スノーボード</span>
+                            </label>
+                        </li>
+                        <li class="top-gear-card__list-item">
+                            <label class="top-gear-card__item">
+                                <input type="checkbox">
+                                <span>ブーツ</span>
+                            </label>
+                        </li>
+                        <li class="top-gear-card__list-item">
+                            <label class="top-gear-card__item">
+                                <input type="checkbox">
+                                <span>ビンディング</span>
+                            </label>
+                        </li>
+                        <li class="top-gear-card__list-item">
+                            <label class="top-gear-card__item">
+                                <input type="checkbox">
+                                <span>リーシュコード</span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- 服装 -->
+                <div class="top-gear-card">
+                    <h3 class="top-gear-card__title">服装</h3>
+                    <ul class="top-gear-card__list">
+                        <li class="top-gear-card__list-item">
+                            <label class="top-gear-card__item">
+                                <input type="checkbox">
+                                <span>ウェア上下</span>
+                            </label>
+                        </li>
+                        <li class="top-gear-card__list-item">
+                            <label class="top-gear-card__item">
+                                <input type="checkbox">
+                                <span>速乾インナー</span>
+                            </label>
+                        </li>
+                        <li class="top-gear-card__list-item">
+                            <label class="top-gear-card__item">
+                                <input type="checkbox">
+                                <span>暖かい長袖</span>
+                            </label>
+                        </li>
+                        <li class="top-gear-card__list-item">
+                            <label class="top-gear-card__item">
+                                <input type="checkbox">
+                                <span>動きやすいズボン</span>
+                            </label>
+                        </li>
+                        <li class="top-gear-card__list-item">
+                            <label class="top-gear-card__item">
+                                <input type="checkbox">
+                                <span>厚手の靴下</span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- 小物 -->
+                <div class="top-gear-card">
+                    <h3 class="top-gear-card__title">小物</h3>
+                    <ul class="top-gear-card__list">
+                        <li class="top-gear-card__list-item">
+                            <label class="top-gear-card__item">
+                                <input type="checkbox">
+                                <span>ヘルメット</span>
+                            </label>
+                        </li>
+                        <li class="top-gear-card__list-item">
+                            <label class="top-gear-card__item">
+                                <input type="checkbox">
+                                <span>ゴーグル</span>
+                            </label>
+                        </li>
+                        <li class="top-gear-card__list-item">
+                            <label class="top-gear-card__item">
+                                <input type="checkbox">
+                                <span>ネックウォーマー</span>
+                            </label>
+                        </li>
+                        <li class="top-gear-card__list-item">
+                            <label class="top-gear-card__item">
+                                <input type="checkbox">
+                                <span>グローブ</span>
+                            </label>
+                        </li>
+                        <li class="top-gear-card__list-item">
+                            <label class="top-gear-card__item">
+                                <input type="checkbox">
+                                <span>リフト券ホルダー</span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <a href="./gear.html" class="btn-link">
+                <span class="btn-link__text">道具・服装編</span>
+            </a>
+        </section>
+
+        <!-- セクション02: スキー場（トップページ用） -->
+        <section class="section section--resort">
+            <div class="section__header">
+                <div class="section-number">
+                    <span class="section-number__bg"></span>
+                    <span class="section-number__text">02</span>
+                </div>
+                <h2 class="section__title">スキー場</h2>
+            </div>
+
+            <p class="section__description">日帰りでも行きやすい初心者におすすめのスキー場をピックアップ！<br />リフト券が無料になる『雪マジ！』の紹介も</p>
+
+            <!-- トップページ専用のクラス名に変更 (top-resort-list) -->
+            <div class="top-resort-list">
+
+                <!-- カード1 -->
+                <article class="top-resort-card">
+                    <h3 class="top-resort-card__title">GALA湯沢スキー場</h3>
+                    <div class="top-resort-card__body">
+                        <dl class="top-resort-card__info">
+                            <div class="top-resort-card__info-group">
+                                <dt>アクセス</dt>
+                                <dd>上越新幹線「ガーラ湯沢駅」直結<br>
+                                    関越自動車道「湯沢IC」から約3km</dd>
+                            </div>
+                            <div class="top-resort-card__info-group">
+                                <dt>リフト券</dt>
+                                <dd>大人の1日券 7,300円～</dd>
+                            </div>
+                            <div class="top-resort-card__info-group">
+                                <dt>初心者コース率</dt>
+                                <dd>約35％</dd>
+                            </div>
+                        </dl>
+                        <div class="top-resort-card__image-wrapper">
+                            <img class="top-resort-card__image" src="../images/top_bg.jpg" alt="GALA湯沢スキー場" />
+                        </div>
+                    </div>
+                </article>
+
+                <!-- カード2 -->
+                <article class="top-resort-card">
+                    <h3 class="top-resort-card__title">軽井沢プリンスホテルスキー場</h3>
+                    <div class="top-resort-card__body">
+                        <dl class="top-resort-card__info">
+                            <div class="top-resort-card__info-group">
+                                <dt>アクセス</dt>
+                                <dd>北陸新幹線「軽井沢駅」南口から徒歩約10分<br>
+                                    または無料シャトルバス<br>
+                                    上信越自動車道「碓氷軽井沢IC」から約13km</dd>
+                            </div>
+                            <div class="top-resort-card__info-group">
+                                <dt>リフト券</dt>
+                                <dd>大人の1日券 7,000円～</dd>
+                            </div>
+                            <div class="top-resort-card__info-group">
+                                <dt>初心者コース率</dt>
+                                <dd>約50％</dd>
+                            </div>
+                        </dl>
+                        <div class="top-resort-card__image-wrapper">
+                            <img class="top-resort-card__image" src="../images/top_bg.jpg" alt="軽井沢プリンスホテルスキー場" />
+                        </div>
+                    </div>
+                </article>
+
+                <!-- カード3 -->
+                <article class="top-resort-card">
+                    <h3 class="top-resort-card__title">ハンターマウンテン塩原</h3>
+                    <div class="top-resort-card__body">
+                        <dl class="top-resort-card__info">
+                            <div class="top-resort-card__info-group">
+                                <dt>アクセス</dt>
+                                <dd>東北新幹線「那須塩原駅」から無料シャトルバス<br>
+                                    東北自動車道「西那須野塩原IC」から約29km</dd>
+                            </div>
+                            <div class="top-resort-card__info-group">
+                                <dt>リフト券</dt>
+                                <dd>大人の1日券 5,800円～</dd>
+                            </div>
+                            <div class="top-resort-card__info-group">
+                                <dt>初心者コース率</dt>
+                                <dd>約30％</dd>
+                            </div>
+                        </dl>
+                        <div class="top-resort-card__image-wrapper">
+                            <img class="top-resort-card__image" src="../images/top_bg.jpg" alt="ハンターマウンテン塩原" />
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+
+            <!-- リンクボタン -->
+            <a href="./ski.html" class="btn-link">
+                <span class="btn-link__text">スキー場一覧を見る</span>
+            </a>
+
+        </section>
+
+
+        <!-- セクション03: Q&A -->
+        <section class="section section--qa">
+            <div class="section__header">
+                <div class="section-number">
+                    <span class="section-number__bg"></span>
+                    <span class="section-number__text">03</span>
+                </div>
+                <h2 class="section__title">Q&amp;A</h2>
+            </div>
+
+            <p class="section__description">みんなが楽しく、安全に滑るために大切なルール<br />マナーやリフトの乗り方も紹介</p>
+
+            <div class="qa-list">
+                <!-- Q&A 1 -->
+                <div class="qa-item">
+                    <div class="qa-item__question">
+                        <span class="qa-item__badge qa-item__badge--q">Q</span>
+                        <p class="qa-item__text">スノーボードってお金持ちしかできない？</p>
+                    </div>
+                    <div class="qa-item__answer">
+                        <span class="qa-item__badge qa-item__badge--a">A</span>
+                        <p class="qa-item__text">
+                            そんなことはないです！バイト代などで誰でも十分に楽しめます。<br>
+                            バスツアーやJRの新幹線パックなどで費用を抑えることができるので、道具やウェアをレンタルする場合は1人2万円あれば日帰りの旅行が楽しめます。<br>
+                            友達同士で高速道路を使って車で行く場合でも1人3万円あれば満喫できます。
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Q&A 2 -->
+                <div class="qa-item">
+                    <div class="qa-item__question">
+                        <span class="qa-item__badge qa-item__badge--q">Q</span>
+                        <p class="qa-item__text">ゲレンデで滑るときのマナーやルールはあるの？</p>
+                    </div>
+                    <div class="qa-item__answer">
+                        <span class="qa-item__badge qa-item__badge--a">A</span>
+                        <div class="qa-item__text">
+                            <p><strong>10 FIS RULES</strong>という国際スキー連盟（FIS）によって定められた10つのルールがあります！<br>
+                                事故を未然に防ぐために、スキーヤーとスノーボーダーひとりひとりが責任をもって注意して滑るよう、定められました。</p>
+
+                            <ol class="qa-card__rule-list">
+                                <li>他人への思いやりの心を忘れない</li>
+                                <li>無茶な滑り方やスピード出しすぎをしない</li>
+                                <li>前の人に危険が及ばないコースを選んで滑る</li>
+                                <li>前の人に近づきすぎない</li>
+                                <li>まわりをよく確認する</li>
+                                <li>途中で立ち止まってはいけない</li>
+                                <li>コースの真ん中を歩かない</li>
+                                <li>コースに立つ標識や標示を必ず守る</li>
+                                <li>事故が起きたときはすぐに救護活動を</li>
+                                <li>事故が起きたときは必ず連絡先を交換</li>
+                            </ol>
+
+                            <p class="qa-card__note">死亡事故も起こり得るスポーツなので楽しく滑れるようルールを守るようにしましょう！</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Q&A 3 -->
+                <div class="qa-item">
+                    <div class="qa-item__question">
+                        <span class="qa-item__badge qa-item__badge--q">Q</span>
+                        <p class="qa-item__text">リフトの乗り降りの仕方は？</p>
+                    </div>
+                    <div class="qa-item__answer">
+                        <span class="qa-item__badge qa-item__badge--a">A</span>
+                        <div class="qa-item__text">
+                            <p>リフトの乗り降りは慌てずにまっすぐ滑るのがコツ！</p>
+                            <div class="qa-card__step-group">
+                                <h3>乗り方</h3>
+                                <ol>
+                                    <li>ビンディングのハイバックを倒して乗車位置で待つ</li>
+                                    <li>リフトが来たら、振り返って椅子を確認して板の先端を前に向けて座る</li>
+                                    <li>安全バーを下げる</li>
+                                </ol>
+                            </div>
+                            <div class="qa-card__step-group">
+                                <h3>降り方</h3>
+                                <ol>
+                                    <li>安全バーを上げる</li>
+                                    <li>進行方向に板の先端を向けて降車位置で立つ</li>
+                                    <li>リフトの椅子が押す力を利用してまっすぐ滑り降りる</li>
+                                </ol>
+                            </div>
+                            <p class="qa-card__note">ビンディングのハイバックを倒し忘れると雪面とリフトの間に挟まって割れたりする危険があるので必ず倒すようにしましょう。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a href="./qa.html" class="btn-link">
+                <span class="btn-link__text">Q&A編</span>
+            </a>
+        </section>
+    </main>
+
+    <!-- フッター -->
+    <footer class="footer">
+        <nav class="footer-nav">
+            <ul class="footer-nav__list">
+                <!-- home に is-current -->
+                <li class="footer-nav__item"><a href="/index.html" class="footer-nav__link is-current">ホーム</a></li>
+                <li class="footer-nav__item"><a href="./gear.html" class="footer-nav__link">道具・服装編</a></li>
+                <li class="footer-nav__item"><a href="./ski.html" class="footer-nav__link">スキー場編</a></li>
+                <li class="footer-nav__item"><a href="./qa.html" class="footer-nav__link">Q&A編</a></li>
+            </ul>
+        </nav>
+        <a href="/index.html" class="footer__logo">Snow-Navi</a>
+        <p class="footer__copyright">&copy; 2026 Snow-Navi. All rights reserved.</p>
+    </footer>
+    <script src="../js/main.js" defer></script>
+</body>
+
+</html>
