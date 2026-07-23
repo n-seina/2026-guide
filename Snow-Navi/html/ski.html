@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <title>スキー場編 | Snow-Navi</title>
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <a href="./home.html" class="header__logo">Snow-Navi</a>
+
+        <button class="hamburger-menu" id="js-hamburger" aria-label="メニューを開く" aria-expanded="false">
+            <span class="hamburger-menu__line"></span>
+            <span class="hamburger-menu__line"></span>
+            <span class="hamburger-menu__line"></span>
+        </button>
+
+        <nav class="sp-nav" id="js-sp-nav" aria-hidden="true">
+            <ul class="sp-nav__list">
+                <li class="sp-nav__item"><a href="./home.html" class="sp-nav__link">ホーム</a></li>
+                <li class="sp-nav__item"><a href="./gear.html" class="sp-nav__link">道具・服装編</a></li>
+                <!-- ski に is-current -->
+                <li class="sp-nav__item"><a href="./ski.html" class="sp-nav__link is-current">スキー場編</a></li>
+                <li class="sp-nav__item"><a href="./qa.html" class="sp-nav__link">Q&A編</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+
+        <!-- Main Content -->
+        <main class="main-content">
+
+            <!-- Page Title -->
+            <section class="page-title">
+                <h1 class="page-title__main">スキー場編</h1>
+                <p class="page-title__sub">
+                    初心者でも滑りやすいおすすめのスキー場をピックアップ！<br>
+                    リフト券が無料になる『雪マジ』の紹介も
+                </p>
+            </section>
+
+            <!-- Ski Resort List -->
+            <section class="resort-section">
+
+                <!-- Resort 01: GALA湯沢 -->
+                <article class="resort-card">
+                    <div class="resort-card__header">
+                        <span class="resort-card__badge"></span>
+                        <h2 class="resort-card__title">GALA湯沢スキー場</h2>
+                    </div>
+
+                    <p class="resort-card__description">
+                        「ガーラ湯沢駅」直結でアクセス最強！<br>
+                        他のスキー場と行き来できる三山共通リフト券もあり、日帰りでたっぷり楽しみたい初心者にぴったり
+                    </p>
+
+                    <div class="resort-card__content">
+                        <dl class="resort-card__info">
+                            <div class="resort-card__info-group">
+                                <dt>アクセス</dt>
+                                <dd>
+                                    上越新幹線「ガーラ湯沢駅」直結<br>
+                                    関越自動車道「湯沢IC」から約3km
+                                </dd>
+                            </div>
+                            <div class="resort-card__info-group">
+                                <dt>リフト券</dt>
+                                <dd>大人の1日券 7,300円～</dd>
+                            </div>
+                            <div class="resort-card__info-group">
+                                <dt>初心者コース率</dt>
+                                <dd>約35％</dd>
+                            </div>
+                        </dl>
+                        <div class="resort-card__image-placeholder">
+                            <img class="resort-card__image" src="../images/top_bg.jpg" alt="GALA湯沢スキー場" />
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Resort 02: 軽井沢プリンスホテル -->
+                <article class="resort-card">
+                    <div class="resort-card__header">
+                        <span class="resort-card__badge"></span>
+                        <h2 class="resort-card__title">軽井沢プリンスホテルスキー場</h2>
+                    </div>
+
+                    <p class="resort-card__description">
+                        軽井沢駅から徒歩やシャトルバスですぐ！<br>
+                        晴天率が高く人口降雪機で整備されているため滑りやすさ抜群
+                    </p>
+
+                    <div class="resort-card__content">
+                        <dl class="resort-card__info">
+                            <div class="resort-card__info-group">
+                                <dt>アクセス</dt>
+                                <dd>
+                                    北陸新幹線「軽井沢駅」南口から徒歩約10分<br>
+                                    または無料シャトルバス<br>
+                                    上信越自動車道「碓氷軽井沢IC」から約13km
+                                </dd>
+                            </div>
+                            <div class="resort-card__info-group">
+                                <dt>リフト券</dt>
+                                <dd>大人の1日券 7,000円～</dd>
+                            </div>
+                            <div class="resort-card__info-group">
+                                <dt>初心者コース率</dt>
+                                <dd>約50％</dd>
+                            </div>
+                        </dl>
+                        <div class="resort-card__image-placeholder">
+                            <img class="resort-card__image" src="../images/top_bg.jpg" alt="軽井沢プリンスホテルスキー場" />
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Resort 03: ハンターマウンテン塩原 -->
+                <article class="resort-card">
+                    <div class="resort-card__header">
+                        <span class="resort-card__badge"></span>
+                        <h2 class="resort-card__title">ハンターマウンテン塩原</h2>
+                    </div>
+
+                    <p class="resort-card__description">
+                        リフト券がお得で大学生に大人気！「雪マジ！」対象なのも嬉しいポイント<br>
+                        数少ないグラトリのスクールもあり、挑戦したい人におすすめ
+                    </p>
+
+                    <div class="resort-card__content">
+                        <dl class="resort-card__info">
+                            <div class="resort-card__info-group">
+                                <dt>アクセス</dt>
+                                <dd>
+                                    東北新幹線「那須塩原駅」から無料シャトルバス<br>
+                                    東北自動車道「西那須野塩原IC」から約29km
+                                </dd>
+                            </div>
+                            <div class="resort-card__info-group">
+                                <dt>リフト券</dt>
+                                <dd>大人の1日券 5,800円～</dd>
+                            </div>
+                            <div class="resort-card__info-group">
+                                <dt>初心者コース率</dt>
+                                <dd>約30％</dd>
+                            </div>
+                        </dl>
+                        <div class="resort-card__image-placeholder">
+                            <img class="resort-card__image" src="../images/top_bg.jpg" alt="ハンターマウンテン塩原" />
+                        </div>
+                    </div>
+                </article>
+
+            </section>
+
+            <!-- Yukimaji Section -->
+            <section class="yukimaji-section">
+                <div class="yukimaji-section__header">
+                    <span class="yukimaji-section__badge"></span>
+                    <h2 class="yukimaji-section__title">雪マジってなに？</h2>
+                </div>
+
+                <div class="yukimaji-section__intro">
+                    <p class="yukimaji-section__text">
+                        リクルートが運営する「マジ部」の無料サービス！<br>
+                        19歳〜22歳限定で、全国で対象のスキー場のリフト券が無料または割引に
+                    </p>
+                </div>
+
+                <div class="yukimaji-section__steps">
+                    <h3 class="yukimaji-section__steps-title">雪マジの使い方</h3>
+                    <ol class="step-list">
+                        <li class="step-list__item">
+                            <span class="step-list__label">STEP 1</span>
+                            <p class="step-list__text">公式サイトからリクルートIDで会員登録</p>
+                        </li>
+                        <li class="step-list__item">
+                            <span class="step-list__label">STEP 2</span>
+                            <p class="step-list__text">行きたいスキー場を選んで事前にクーポンを取得</p>
+                        </li>
+                        <li class="step-list__item">
+                            <span class="step-list__label">STEP 3</span>
+                            <p class="step-list__text">当日、リフト券売り場でクーポンと身分証明書を提示する</p>
+                        </li>
+                    </ol>
+                </div>
+            </section>
+
+        </main>
+
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <nav class="footer-nav">
+            <ul class="footer-nav__list">
+                <li class="footer-nav__item"><a href="./home.html" class="footer-nav__link">ホーム</a></li>
+                <li class="footer-nav__item"><a href="./gear.html" class="footer-nav__link">道具・服装編</a></li>
+                <!-- ski に is-current -->
+                <li class="footer-nav__item"><a href="./ski.html" class="footer-nav__link is-current">スキー場編</a></li>
+                <li class="footer-nav__item"><a href="./qa.html" class="footer-nav__link">Q&A編</a></li>
+            </ul>
+        </nav>
+        <a href="./home.html" class="footer__logo">Snow-Navi</a>
+        <p class="footer__copyright">&copy; 2026 Snow-Navi. All rights reserved.</p>
+    </footer>
+
+    <script src="../js/main.js" defer></script>
+</body>
+
+</html>
